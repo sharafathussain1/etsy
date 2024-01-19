@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
+
+.nav{
+    border: 3px solid white;
+   
+    height: 70px;
+    width: 100%;
+    display: flex;  
+    
+    background-color: rgb(240, 195, 140);
+
+}
+
+.input{
+    padding-left: 30px;
+    border: 2px solid black;
+    width: 700px;
+    margin-left: 150px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 50px;
+    position: relative;
+
+}
+.cat{
+    
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+h3{
+    
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #c93702;
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap
+}
+#logo-1{
+    border: 1px solid #c93702;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    font-size: 20px;
+    background-color: #c93702;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;   
+}
+
+.logo-2{
+    
+    margin-left: 60px; 
+    margin-top: 20px;
+    font-size: 20px;
+}
+#heart{
+    padding-left: 30px;
+}
+.heading-1
+{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.img-style{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.img-style:hover{
+    transform: scale(1.1);
+}
+.image{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image > div{
+  
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ margin: 10px
+}
+
+#text-2{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 15px;
+
+}
+#heading-2{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.main-cards{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+.cards{
+    display: flex;
+    position: relative;
+}
+.cards>img{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.cards>img:hover{
+    transform: scale(1.1); 
+}
+.bottom-text{
+    position: absolute;
+    border: 1px solid orange;
+    font-weight: bold;
+    left:40px;
+    bottom: 30px;
+    color: red;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.bottom-text:hover{
+    color: white;
+    background-color: orange;
+
+}
+#heart-2{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-size: 26px;
+}
+
